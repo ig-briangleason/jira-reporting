@@ -1,0 +1,102 @@
+{
+  "extends": ["tslint-eslint-rules"],
+  "rules": {
+    "arrow-parens": false,
+    "block-spacing": [true, "always"],
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "curly": true,
+    "eofline": true,
+    "handle-callback-err": true,
+    "import-spacing": true,
+    "indent": [true, "spaces", 2],
+    "interface-name": [false],
+    "ordered-imports": [false],
+    "object-literal-sort-keys": false,
+    "no-angle-bracket-type-assertion": true,
+    "no-consecutive-blank-lines": [true, 1],
+    "no-console": [false],
+    "no-constant-condition": true,
+    "no-switch-case-fall-through": true,
+    "no-irregular-whitespace": true,
+    "no-multi-spaces": true,
+    "no-trailing-whitespace": true,
+    "no-var-keyword": true,
+    "no-var-requires": false,
+    "prefer-switch": true,
+    "semicolon": [false, "never"],
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always",
+        "method": "never",
+        "constructor": "never"
+      }
+    ],
+    "switch-default": true,
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "whitespace": [true, "check-decl", "check-operator", "check-module", "check-type", "check-preblock"]
+  },
+  "jsRules": {
+    "block-spacing": [true, "always"],
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "curly": true,
+    "eofline": true,
+    "handle-callback-err": true,
+    "import-spacing": true,
+    "indent": [true, "spaces", 2],
+    "ordered-imports": [false],
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": [true, 1],
+    "no-console": [false],
+    "no-constant-condition": true,
+    "no-switch-case-fall-through": true,
+    "no-irregular-whitespace": true,
+    "no-multi-spaces": true,
+    "no-trailing-whitespace": true,
+    "prefer-switch": true,
+    "semicolon": [true, "always"],
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always",
+        "method": "never",
+        "constructor": "never"
+      }
+    ],
+    "switch-default": true,
+    "whitespace": [true, "check-decl", "check-operator", "check-module", "check-type"]
+  },
+  "rulesDirectory": []
+}
